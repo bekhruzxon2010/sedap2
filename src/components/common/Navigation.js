@@ -61,13 +61,6 @@ function Navigation(props) {
       active: true,
     },
     {
-      id: 9,
-      linkName: "Customer Detail",
-      linkImg: "/customerDetail.png",
-      href: "/customers-detail",
-      active: true,
-    },
-    {
       id: 10,
       linkName: "Calendar",
       linkImg: "/calendar.png",

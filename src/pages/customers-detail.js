@@ -1,7 +1,10 @@
 import Head from "next/head";
 import CustomersDetail from "@/components/pages/customers/CustomersDetail"
+import BarChart from '@/components/pages/customers/CustomerBarChart'
+import Cart from '@/components/pages/customers/CustomersRightSide'
+import Cart2 from '@/components/pages/customers/CustomersLeftSideFirst'
 import MainLayout from "@/components/common/layouts/MainLayout";
-import styles from "@/styles/Home.module.css";
+import styles from "@/styles/CustomersDetail.module.css";
 
 export default function CustomerDetail() {
   return (
@@ -13,7 +16,14 @@ export default function CustomerDetail() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div>
-        <CustomersDetail />
+        <div className={styles['dee']}>
+        <CustomersDetail/>
+        <Cart/>
+        </div>
+        <div className={styles['dfss']}>
+        <Cart2/>
+        <BarChart/>
+        </div>
       </div>
     </>
   );

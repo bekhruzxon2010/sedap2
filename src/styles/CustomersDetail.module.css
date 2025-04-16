@@ -1,0 +1,154 @@
+.green {
+  color: green;
+  margin-top: 20px;
+}
+.gray {
+  color: gray;
+  margin-top: 20px;
+}
+.all {
+  display: flex;
+  gap: 20px;
+}
+.df1 {
+  display: flex;
+  gap: 20px;
+}
+.df2 {
+  display: flex;
+  gap: 20px;
+  margin-top: 30px;
+}
+.df3 {
+  display: flex;
+  gap: 5px;
+}
+.big {
+  border: 1px solid aliceblue;
+  background-color: aliceblue;
+  border-radius: 20px;
+  width: 700px;
+  padding: 30px;
+}
+.border_div {
+  border: 1px solid aliceblue;
+  background-color: aliceblue;
+  border-radius: 20px;
+  padding: 10px;
+  margin-top: 20px;
+  width: 500px;
+  height: 400px;
+}
+.bordr {
+  border: 1px solid #00b074;
+  background-color: #00b074;
+  border-radius: 20px;
+  width: 500px;
+  color: white;
+  padding: 20px;
+  display: flex;
+  padding-top: 55px;
+  margin-left: 50px;
+}
+.mtop {
+  padding-bottom: 15px;
+}
+.mleft {
+  margin-left: 200px;
+}
+.font {
+  font-size: 40px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+.mtop2 {
+  margin-top: 80px;
+}
+.dee {
+  display: flex;
+}
+.borderca {
+  border: 1px solid aliceblue;
+  background-color: aliceblue;
+  border-radius: 30px;
+  width: 100px;
+  text-align: center;
+  padding: 10px;
+}
+.border {
+  border: 1px solid gray;
+  background-color: gray;
+  border-radius: 30px;
+  display: flex;
+  gap: 20px;
+  width: 300px;
+  padding: 20px;
+}
+.mtop1 {
+  padding-top: 10px;
+}
+.border_huge {
+  border: 1px solid aliceblue;
+  background-color: aliceblue;
+  border-radius: 20px;
+  width: 700px;
+  padding: 20px;
+  margin-top: 20px;
+}
+.ptop {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.dfc{
+    display: flex;
+    gap: 50px;
+}
+.graytxt{
+    color: gray;
+    margin-top: 20px;
+}
+.blue{
+    color: blue;
+    margin-top: 10px;
+}
+.nn{
+    display: flex;
+    gap: 30px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.dfg{
+    display: flex;
+    gap: 50px;
+    margin-left: 100px;
+}
+.dfss{
+    display: flex;
+    gap: 50px;
+}
+.lorem{
+    color: gray;
+    margin-bottom: 40px;
+}
+.dfbb{
+    display: flex;
+    gap: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.ll{
+    display: flex;
+    gap: 50px;
+    text-align: center;
+}
+.border_div{
+    padding: 20px;
+    height: 600px;
+}
+.zzz{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.mleft1{
+    margin-left: 20px;
+}

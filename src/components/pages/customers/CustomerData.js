@@ -23,30 +23,7 @@ const CustomerData = [
     amount: 164.52,
     lastAmount: 98,
   },
-  {
-    id: '555231',
-    date: "26 March 2020, 12:42 AM",
-    userName: "Mikasa Ackerman",
-    location: "Corner Street 5th London",
-    amount: 164.52,
-    lastAmount: 98,
-  },
-  {
-    id: '523231',
-    date: "26 March 2020, 12:42 AM",
-    userName: "Mikasa Ackerman",
-    location: "Corner Street 5th London",
-    amount: 164.52,
-    lastAmount: 98,
-  },
-  {
-    id: '558831',
-    date: "26 March 2020, 12:42 AM",
-    userName: "Mikasa Ackerman",
-    location: "Corner Street 5th London",
-    amount: 164.52,
-    lastAmount: 98,
-  },
+  
 ];
 
 export default CustomerData;
