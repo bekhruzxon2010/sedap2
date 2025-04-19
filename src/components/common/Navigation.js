@@ -57,7 +57,7 @@ function Navigation(props) {
       id: 8,
       linkName: "Food Detail",
       linkImg: "/foodDetail.png",
-      href: "/foodDetail",
+      href: "/food-detail",
       active: true,
     },
     {

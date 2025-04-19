@@ -109,3 +109,27 @@
     font-size: 14px;
     margin-top: 15px;
 }
+.dfc{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+.green_txt{
+    color: green;
+}
+.all_df{
+    display: flex;
+    margin-top: 20px;
+    border: 1px solid aliceblue;
+    background-color: aliceblue;
+    border-radius: 25px;
+    width: 600px;
+    padding: 20px;
+}
+.width{
+    color: red;
+}
+.fg{
+    border: 1px aliceblue solid;
+    background-color: aliceblue;
+}
