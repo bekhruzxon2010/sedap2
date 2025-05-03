@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Styles from '@/styles/Aside.module.css'
 import {
   PieChart,
   Pie,
@@ -7,7 +8,6 @@ import {
   Label,
 } from "recharts";
 
-// Diogramma ma'lumotlari
 const chartData = [
   [{ name: "Foydali", value: 75 }, { name: "Qolgan", value: 25 }],
   [{ name: "Foydali", value: 32 }, { name: "Qolgan", value: 68 }],
@@ -30,6 +30,7 @@ const SimplePie = ({ data, colors }) => {
   const percentage = ((mainValue / total) * 100).toFixed(0);
 
   return (
+    <div className={Styles['border11']}>
     <div
       className={`bg-white rounded-2xl shadow p-4 w-64 transition-all duration-300 transform ${
         activeIndex !== null ? "scale-105 shadow-xl" : "scale-100"
@@ -61,16 +62,21 @@ const SimplePie = ({ data, colors }) => {
         </PieChart>
       </ResponsiveContainer>
     </div>
+    </div>
   );
 };
 
 // Asosiy sahifa komponenti
 export default function Home() {
   return (
+    <>
+    <div className={Styles['border11']}>
     <div className="min-h-screen bg-gray-100 flex flex-row justify-center items-start gap-6 p-6 flex-wrap">
       {chartData.map((data, idx) => (
         <SimplePie key={idx} data={data} colors={chartColors[idx]} />
       ))}
     </div>
+    </div>
+    </>
   );
 }

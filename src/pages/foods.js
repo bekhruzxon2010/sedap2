@@ -1,7 +1,7 @@
 import Head from "next/head";
-import Food from "@/components/pages/foods/Food"
 import MainLayout from "@/components/common/layouts/MainLayout";
 import FoodDiogramma from "@/components/pages/foods/FoodDiogramma"
+import Input from '@/components/pages/foods/FoodsInput'
 import styles from "@/styles/Home.module.css";
 
 export default function Foods() {
@@ -14,7 +14,7 @@ export default function Foods() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div>
-        <Food />
+        <Input/>
         <FoodDiogramma/>
       </div>
     </>

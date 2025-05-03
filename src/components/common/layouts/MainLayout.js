@@ -22,7 +22,7 @@ function MainLayout(props) {
           Dashboard
         </h1> */}
         <div style={{ display: router.asPath === "/" ? "block" : "none" }}>
-          <h1 style={{ marginLeft: "20px" }}>Mr.Behruz</h1>
+          <h1 style={{ marginLeft: "20px" }}>Mr.</h1>
           <h1 style={{ marginLeft: "20px" }}>{[date, "-", month, "-", year]}</h1>
         </div>
       </div>

@@ -16,10 +16,12 @@
     "@fullcalendar/interaction": "^6.1.17",
     "@fullcalendar/react": "^6.1.17",
     "@fullcalendar/timegrid": "^6.1.17",
+    "@mui/material": "^7.0.2",
     "@mui/x-charts": "^7.28.0",
     "@mui/x-date-pickers-pro": "^7.28.3",
     "dayjs": "^1.11.13",
     "next": "15.2.0",
+    "notistack": "^3.0.2",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "recharts": "^2.15.2"

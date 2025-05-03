@@ -1,11 +1,10 @@
 import React from "react";
 import Image from "next/image";
-import styles from "@/styles/order.module.css";
 
 function Calendar() {
   return (
     <div>
-      <div className={styles["status"]}>
+      <div>
         <Image src="/greencalendar.png" alt="Green" width={20} height={20} />
         <select>
           <option>Today</option>
