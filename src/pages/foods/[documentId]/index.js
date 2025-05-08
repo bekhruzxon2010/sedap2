@@ -7,6 +7,7 @@ import NewBtn from "@/components/pages/foods/NewBtn";
 import { useRouter } from "next/router";
 import FoodDetailComponent from "@/components/pages/foods/FoodDetailComponent";
 import useFetchApiItems from "@/hooks/useFetchApiItems";
+import useFetchApiItem from "@/hooks/useFetchApiItem";
 
 export default function FoodDetail() {
   const router = useRouter();
